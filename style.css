@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    background-color: #ebe5e5
+}
+.box{
+    width: 70%;
+    height: 80vh;
+    margin-left: 15%;
+    margin-top: 50px;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.name-title h2{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #474946;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.name-title p{
+    font-size: small;
+    font-weight: 400;
+}
+
+.nav-bar nav{
+    /* display: inline-block; */
+    margin-left: 140px;
+    margin-top: 27px;
+}
+.nav-bar li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: #474946;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 13px 35px;
+}
+.nav-bar li a:hover{
+    background-color: #e83555;
+    box-shadow: inset 0 25px 20px -20px rgba(0,0,0,0.3);
+    transition: 0.5s;
+    color: #fff;
+}
+
+.description{
+    display: flex;
+}
+
+.intro{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.intro h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #474946;
+    font-size:xx-large;
+    font-weight: 800;
+}
+.intro h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #474946;
+    font-size:large;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.intro ul li{
+    display: inline-block;
+    margin-bottom: 40px;
+    background-color: #e83555;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 40px;
+}
+.intro ul li a{
+    text-decoration: none;
+    background-color: #e83555;
+    color: #fff;
+    padding: 15px;
+    border-radius: 40px;
+    width: 50px;
+}
+.intro ul li:hover{
+    
+    box-shadow: 10px 25px 20px -20px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    color: #fff;
+}
+#index{
+    background-color: #4285f4;
+}
+#project{
+    background-color: #FBBD05;
+}
+
+.description img{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    box-shadow: 10px 25px 20px -20px rgba(0,0,0,0.3);
+}
+
+.intro p{
+    font-size: small;
+    font-weight: 300;
+    color: #474946;
+}
+
+.foot ul{
+    display: flex;
+}
+
+.foot p{
+    background-color: #e83555;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    text-align: center;
+    padding-top: 30px;
+    font-size: xx-large;
+    color: #474946;
+}
+.foot p span{
+    background-color: #e83555;
+    font-size: small;
+    color: #474946;
+}
